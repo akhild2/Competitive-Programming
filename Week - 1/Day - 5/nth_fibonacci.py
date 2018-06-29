@@ -8,9 +8,9 @@ b = (1-math.sqrt(5))/2
 def fib(n):
     # Compute the nth Fibonacci number
     if not n<0:
-        return round(((a**2)-(b**2))/math.sqrt(5))
+        return round(((a**n)-(b**n))/math.sqrt(5))
     raise ValueError
-
+    
 
 # Tests
 
